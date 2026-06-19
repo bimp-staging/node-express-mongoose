@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  node-app:
+  docker.io/library/node:22-alpine:
     build: .
     image: node-app
     environment:
